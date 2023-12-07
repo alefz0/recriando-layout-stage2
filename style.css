@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #2F2E41;
+    justify-content: center;
+}
+
+header {
+    margin: 70px auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 64px;
+}
+
+li:hover {
+    color: #00BFA6;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    width: 80vw;
+    margin: 200px auto;
+    gap: 200px;
+    justify-content: center;
+}
+
+main img {
+    width: 450px;
+}
+
+span {
+    color: #00BFA6;
+}
+
+section {
+    text-align: center;
+    justify-content: center;
+}
+
+section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+section p {
+    color: #C2C2C2;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    margin-top: 80px;
+}
+
+footer {
+    border-top: 1px solid #00BFA6;
+    width: 570px;
+    margin: 0 auto;
+}
+
+#rodape {
+    width: 570px;
+    margin: 0 auto;
+    bottom: 50px;
+    position: fixed;
+    text-align: center;
+}
+
+#rodape p {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-weight: 500;
+}
+
+#insta {
+    text-decoration: none;
+    color: white;
+}
+
+#insta:hover {
+    color: #00BFA6;
+}
+
+footer img {
+    bottom: 30px;
+    left: 30px;
+    position: fixed;
+}
